@@ -26,13 +26,9 @@ model.eval()
 
 
 CHAT_BOT_NAME = 'Garry'
-print('Hey My name is Garry How May i Help You? ')
+# print('Hey My name is Garry How May i Help You? ')
 
-while True:
-    query = input("You: ")
-    if query == 'exit':
-        break
-
+def get_response(query):
     query =  tokenize(query)
     x = bag_of_words(query , all_words)
     x = x.reshape(1 , x.shape[0])
@@ -49,6 +45,31 @@ while True:
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                print(f"{CHAT_BOT_NAME}: {random.choice(intent['responses'])}")
+                return (f"{CHAT_BOT_NAME}: {random.choice(intent['responses'])}")
     else:
-        print(f"{CHAT_BOT_NAME}: I Dont UnderStand!")
+        return (f"{CHAT_BOT_NAME}: I Dont UnderStand!")
+
+# while True:
+#     query = input("You: ")
+#     if query == 'exit':
+#         break
+
+#     query =  tokenize(query)
+#     x = bag_of_words(query , all_words)
+#     x = x.reshape(1 , x.shape[0])
+#     x = torch.from_numpy(x)
+
+#     output = model(x)
+
+#     _, predicted = torch.max(output, dim=1)
+#     tag = tags[predicted.item()]
+
+#     probs = torch.softmax(output, dim=1)
+#     prob = probs[0][predicted.item()]
+
+#     if prob.item() > 0.75:
+#         for intent in intents['intents']:
+#             if tag == intent["tag"]:
+#                 print(f"{CHAT_BOT_NAME}: {random.choice(intent['responses'])}")
+#     else:
+#         print(f"{CHAT_BOT_NAME}: I Dont UnderStand!")
