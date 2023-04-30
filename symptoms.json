@@ -4,6 +4,7 @@
         "tag": "greeting",
         "patterns": [
             "Hi",
+            "Hii",
             "Hey",
             "How are you",
             "Is anyone there?",
@@ -12,6 +13,7 @@
         ],
         "responses": [
             "Hey :-)",
+            "Hola",
             "Hello, thanks for visiting",
             "Hi there, what can I do for you?",
             "Hi there, how can I help?"
@@ -36,36 +38,31 @@
         "patterns": [
             "My Left Eye itching! What to do?",
             "My Right Eye itching! What to do?",
-            "I have a cold",
             "My nose is stuffy",
             "I am sneezing a lot",
             "My nose and throat is itchy",
             "skin rashes",
-            "swelling and tingling"
+            "My hand are swelling and tingling"
         ],
         "responses": [
           "This can be a Symptom of Allergies Please Go to the Doctor",
-          "This can be a Symptom of Allergies Avoid Drinking Cold Water",
           "This can be a Symptom of Allergies Please Be Care full while Travling avoid Dusty Places",
-          "This can be a Symptom of Allergies Avoid Street Food",
-          "Please Consider Doctors Opinion before taking any Medicine:(Antihistamines, Decongestants, corticosteroid, Allergy shots)"
+          "This can be a Symptom of Allergies Please Consider Doctors Opinion before taking any Medicine:(Antihistamines, Decongestants, corticosteroid, Allergy shots)"
         ]
       },
       {
         "tag": "coldflu",
         "patterns": [
-            "I have fever",
-            "My temperature is 100",
-            "I have a headache",
-            "Cough",
-            "Fatigue",
-            "Sore Throat"
+            " i have fever",
+            " i have cold",
+            " i have  Cough",
+            " i Feel Fatigue",
+            " i have Sore Throat"
         ],
         "responses": [
             "This can be a Symptom of Cold or Flu Please Go to the Doctor",
             "This can be a Symptom of Cold or Flu Take more Rest and Avoid exercise until Symptoms are gone",
-            "This can be a Symptom of Cold or Flu Drink lots of clear fluids (e.g., water, tea)"
-            "This can be a Symptom of Cold or Flu Do not take antibiotics unless specifically prescribed for you to cure the illness from which you currently suffer",
+            "This can be a Symptom of Cold or Flu Drink lots of clear fluids (e.g., water, tea)",
             "This can be a Symptom of Cold or Flu Avoid drinking alcohol because it weakens your immune system and may interact with medications",
             "This can be a Symptom of Cold or Flu Eat a well-balanced diet, including fruits, vegetables, and grains"
         ]
@@ -73,67 +70,42 @@
       {
         "tag": "conjunctivitis",
         "patterns": [
-            " redness", 
-            " itching",
+            " There is redness around my eyes", 
+            " my eyes are itching",
             " tearing",
-            " burning sensation",
-            " pus-like discharge",
-            " crusting of the eyelid"
+            " i am feeling burning sensation in my eyes"
         ],
         "responses": [
-            "Wash your hands frequently to prevent spreading an existing infection to your other eye, and to other people.",
-            "Dont rub your eyes.",
-            "Use a cool wet washcloth to soak off any crusting.",
-            "Use a warm or cool compress to reduce discomfort.",
-            "Discard eye make-up because it may cause future infection.",
-            "Wash any clothing that may be contaminated, including towels and pillowcases. Try to use clean towels and pillowcases everyday.",
-            "Avoid wearing contact lenses and discard current lenses.",
-            "If eye drops are prescribed, place drop in pocket formed by pulling down lower lid. Make sure you don't touch the bottle to the eye in order to prevent contamination.",
-            "If the infection does not improve in 2 or 3 days, make an appointment for re-evaluation."
-        ]
-      },
-      {
-        "tag": "diarrhea",
-        "patterns": [
-        "watery",
-        "loose stools",
-        "frequent bowel movements",
-        "cramping or pain in the abdomen, nausea, bloating",
-        "possibly fever or bloody stools, depending on the cause"
-
-        ],
-        "responses": [
-            "Avoid foods that are milk-based, greasy, high-fiber, or very sweet because these are likely to aggravate diarrhea.",
-            "Avoid caffeine and alcohol.",
-            "Do not eat solid food if you have signs of dehydration (thirst, light-headed, dark urine). Instead, drink about 2 cups of clear fluids per hour (if vomiting isn't present), such as sports drinks and broth. Water alone is not enough because your body needs sodium and sugar to replace what it’s losing.",
-            "Avoid high sugar drinks, like apple juice, grape juice, and soda, which can pull water into the intestine and make the diarrhea persist.",
-            "Don't drink clear liquids exclusively for more than 24 hours.",
-            "Begin eating normal meals within 12 hours, but stick to food that is bland and won't irritate your intestine. Some doctors suggest the “BRAT“ diet which includes foods that are low in fiber, fat, and sugar. BRAT stands for Bananas, Rice, Applesauce, and Toast.",
-            "Use over-the-counter lactobacillus acidophilus capsules or tablets. These bacteria help maintain a healthy intestine, and are found in yogurt with live active cultures.",
-            "Decrease level of exercise until symptoms are gone.",
-            "Over-the-counter drugs, such as Imodium A-D, should only be used if absolutely necessary because it is important to let diarrhea flush out the bacteria or parasite that's causing the infection."
+            "This can be a Symptom of conjunctivitis  Wash your hands frequently to prevent spreading an existing infection to your other eye, and to other people.",
+            "This can be a Symptom of  conjunctivitis Dont rub your eyes.",
+            "This can be a Symptom of conjunctivitis  Use a cool wet washcloth to soak off any crusting.",
+            "This can be a Symptom of  conjunctivitis Use a warm or cool compress to reduce discomfort.",
+            "This can be a Symptom of  conjunctivitis Discard eye make-up because it may cause future infection.",
+            "This can be a Symptom of  conjunctivitis Wash any clothing that may be contaminated, including towels and pillowcases. Try to use clean towels and pillowcases everyday.",
+            "This can be a Symptom of  conjunctivitis Avoid wearing contact lenses and discard current lenses.",
+            "This can be a Symptom of  conjunctivitis If eye drops are prescribed, place drop in pocket formed by pulling down lower lid. Make sure you don't touch the bottle to the eye in order to prevent contamination.",
+            "This can be a Symptom of  conjunctivitis If the infection does not improve in 2 or 3 days, make an appointment for re-evaluation."
         ]
       },
       {
         "tag": "headaches",
         "patterns": [
-            "pulsing or throbbing quality",
-            "begins with intense pain on one side of the head, which eventually spreads",
-            "felt on one or both sides of the head",
-            "lasts several hours",
-            "severe enough to interfere with routine activities",
-            "may be accompanied by nausea or vomiting",
-            "sometimes preceded by visual changes, such as an aura of zigzag lines or flashes of light",
-            "light and noise can make the headache worse, while sleep tends to relieve symptoms"
+            "pain in my head",
+            "i am having a headache",
+            "i have headache",
+            "pain in the right side of my Brain",
+            "pain in the left side of my head",
+            " feel nauseous",
+            " feel vomiting"
         ],
         "responses": [
-            "Ice pack held over the eyes or forehead",
-            "Heating pad set on low or hot shower to relax tense neck and shoulder muscles",
-            "Sleep, or at least resting in a dark room",
-            "Taking breaks from stressful situations",
-           " Regular exercise to increase endorphin levels and relax muscles. Even if you already have a headache, exercising may relieve the pain. However, intense exercise may bring on a headache.",
-            "Occasional use of over-the-counter medicines such as acetaminophen, ibuprofen, or aspirin can relieve both migraine and tension headaches.",
-            "Prescription drugs for severe headaches"
+            "This can be a Symptom of headaches Ice pack held over the eyes or forehead",
+            "This can be a Symptom of headaches Heating pad set on low or hot shower to relax tense neck and shoulder muscles",
+            "This can be a Symptom of headaches Sleep, or at least resting in a dark room",
+            "This can be a Symptom of headaches Taking breaks from stressful situations",
+           " This can be a Symptom of headaches Regular exercise to increase endorphin levels and relax muscles. Even if you already have a headache, exercising may relieve the pain. However, intense exercise may bring on a headache.",
+            "This can be a Symptom of headaches Occasional use of over-the-counter medicines such as acetaminophen, ibuprofen, or aspirin can relieve both migraine and tension headaches.",
+            "This can be a Symptom of headaches Prescription drugs for severe headaches"
         ]
       }
     ]
