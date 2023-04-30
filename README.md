@@ -22,11 +22,11 @@ You also need to Download `nltk punkt`:
 or just uncomment the 5th line from 'nltk_utils.py' and run that file 
 
 ## Usage
-First Run
+First Run 'train.py' to train the Model 
 ```console
 python train.py
 ```
-then Run app.py
+then Run 'app.py' to run the bot
 ```console
 python app.py
 ```
