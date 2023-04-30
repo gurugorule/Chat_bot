@@ -17,8 +17,8 @@ You also need to Download `nltk punkt`:
  ```console
 >>> import nltk
 >>> nltk.download('punkt')
- ```
-or just uncomment the 5th line from nltk_utils.py and the that file 
+```
+or just uncomment the 5th line from 'nltk_utils.py' and run that file 
 
 ## Usage
 First Run
