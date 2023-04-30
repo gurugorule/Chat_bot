@@ -21,7 +21,7 @@ You also need to Download `nltk punkt`:
 ```
 or just uncomment the 5th line from 'nltk_utils.py' and run that file 
 
-## Usage
+## To Run The Chat Bot
 First Run 'train.py' to train the Model 
 ```console
 python train.py
