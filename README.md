@@ -1,5 +1,5 @@
 # DR Chat Bot
-### BOT: Hey My name is Garry if You need any help just Run me!!
+### CHAT BOT --> Hey My name is Garry if You need any help just Run me!!
  
 Simple chatbot Build with PyTorch. 
 
