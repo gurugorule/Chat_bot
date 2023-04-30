@@ -79,6 +79,24 @@
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
       ]
+    },
+    {
+      "tag": "mononucleosis",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+    {
+      "tag": "stomachaches",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
     }
   ]
 }
