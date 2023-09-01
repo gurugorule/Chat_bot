@@ -18,6 +18,12 @@ pip install -r requirements.txt
 ```console
 python train.py
 ```
+*NOTE*
+```console
+    If You find any Erron in Training the Model make sure you have set the right path for the symptoms.json data on line no. 11 -> *train.py* 
+```
+
+
 ### Run 'app.py' to run the bot
 ```console
 python app.py
