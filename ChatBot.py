@@ -7,7 +7,7 @@ from nltk_utils import tokenize , bag_of_words
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-with open('symptoms.json')as file:
+with open('.symptoms.json')as file:
     intents = json.load(file)
 
 FILE = 'data.pth'
