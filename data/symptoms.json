@@ -6,14 +6,11 @@
             "Hi",
             "Hii",
             "Hey",
-            "How are you",
-            "Is anyone there?",
             "Hello",
+            "How are you",
             "Good day"
         ],
         "responses": [
-            "Hey :-)",
-            "Hola",
             "Hello, thanks for visiting",
             "Hi there, what can I do for you?",
             "Hi there, how can I help?"
@@ -21,7 +18,11 @@
       },
       {
         "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
+        "patterns": [
+          "Bye",
+          "See you later", 
+          "Goodbye"
+        ],
         "responses": [
           "See you later, thanks for visiting",
           "Have a nice day",

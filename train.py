@@ -8,7 +8,7 @@ from torch.utils.data import Dataset , DataLoader
 
 from model import NuralNetworks
 
-with open('.symptoms.json')as file:
+with open("./data/symptoms.json")as file:
     pattern = json.load(file)
 
 all_words = []
