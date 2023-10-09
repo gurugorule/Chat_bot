@@ -7,7 +7,7 @@ from nltk_utils import tokenize , bag_of_words
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-with open('.symptoms.json')as file:
+with open("./data/symptoms.json")as file:
     intents = json.load(file)
 
 FILE = 'data.pth'
@@ -25,8 +25,8 @@ model.load_state_dict(model_state)
 model.eval()
 
 
-CHAT_BOT_NAME = 'Garry'
-# print('Hey My name is Garry How May i Help You? ')
+CHAT_BOT_NAME = 'Guru'
+# print('Hey My name is Guru How May i Help You? ')
 
 def get_response(query):
     query =  tokenize(query)
